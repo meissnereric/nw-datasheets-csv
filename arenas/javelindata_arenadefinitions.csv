@@ -1,0 +1,6 @@
+TerritoryID;NameLocalizationKey;IsPOI;MapIcon;CompassIcon;DiscoveryRadius;IsDiscoverable;IsChartable;DefaultAchievement;Debug;LootTags;DiscoveredAchievement;ChartedAchievement;POITag;AudioGroup;AudioState;GroupSize;RecommendedLevel
+7000;@ui_poi_arena_spriggan;true;LyShineUI/Images/Map/Icon/POIs/angryearth_spriggan.png;LyShineUI/Images/Map/Icon/POIs/angryearth_spriggan.png;300;true;true;;;;Arena1_7000_discovered;Arena1_7000_charted;Arena1;Music_Arena;ForestSpriggan;3;60
+7001;@ui_poi_arena_spriggan;true;LyShineUI/Images/Map/Icon/POIs/angryearth_spriggan.png;LyShineUI/Images/Map/Icon/POIs/angryearth_spriggan.png;300;true;true;;;;Arena2_7001_discovered;Arena2_7001_charted;Arena2;Music_Arena;ForestSpriggan;3;60
+7002;@ui_poi_arena_spriggan;true;LyShineUI/Images/Map/Icon/POIs/angryearth_spriggan.png;LyShineUI/Images/Map/Icon/POIs/angryearth_spriggan.png;300;true;true;;;;Arena3_7002_discovered;Arena3_7002_charted;Arena3;Music_Arena;ForestSpriggan;3;60
+7003;@ui_poi_arena_myrkgard;true;LyShineUI/Images/Map/Icon/POIs/angryearth_spriggan.png;LyShineUI/Images/Map/Icon/POIs/angryearth_spriggan.png;300;true;true;;;;Arena_7003_discovered;Arena_7003_charted;Arena;Music_Arena;DryadBeast;3;60
+7004;@ui_poi_arena_siren;true;LyShineUI/Images/Map/Icon/POIs/hero_shipwreck.png;LyShineUI/Images/Map/Icon/POIs/hero_shipwreck.png;300;false;false;;;;;;Arena;Music_Arena;SirenQueen;3;60
