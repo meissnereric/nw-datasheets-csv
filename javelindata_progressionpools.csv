@@ -4,13 +4,13 @@ TEMP_Crafting_Specialization_Alchemy;Player;20;;0
 TEMP_Crafting_Specialization_Outfitting;Player;20;;0
 TEMP_Crafting_Specialization_Cooking;Player;20;;0
 HatchetAbilityTable;Player;20;;3
-SwordAbilityTable;Player;20;;3
+SwordAbilityTable;Player;20;;4
 BowAbilityTable;Player;20;;3
 SpearAbilityTable;Player;20;;2
 GreatAxeAbilityTable;Player;20;;2
 WarHammerAbilityTable;Player;20;;3
 MusketAbilityTable;Player;20;;3
-LifeMagicAbilityTable;Player;20;;3
+LifeMagicAbilityTable;Player;20;;4
 FireMagicAbilityTable;Player;20;;3
 RapierAbilityTable;Player;20;;2
 IceMagicAbilityTable;Player;20;;1

@@ -38,6 +38,18 @@ TaskID;Type;FailOnCondition;StayActive;TargetQty;ItemName;ItemDropVC;ItemDropPro
 0601_0108_d_02_have_npc_note;TaskHaveAndReturnItems;;1;1;MI_SummonsNote;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;1;;@06_task_transport_generic;;;;1;;;;;;;;;;
 0601_0108_d_03_task_openmap;TaskOpenUiScreen;;0;1;;;0;0;false;;;;;false;false;false;0;0;;;;Map;;;;;;;;;;;;;;;;;;;;0;;@task_getoffbeach_openmap;;;;0;;;;;;;;;;
 0601_0108_d_04_GrantAchievement_Windsward;TaskUnlockAchievement;;1;1;BeachStart_Windsward;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;1;;;;;;;;;;
+0625_0101_d_00_container_truffles;ConsecutiveTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0925_0101_d_01_GiveItem_GatheringSickleT1;0625_0101_d_01A_EquipItem_Sickle;0625_0101_d_02_container_truffles_tasks;0625_0101_d_03_SliceSwap_0425_HerbalistPath_Off;0625_0101_d_04_SliceSwap_0425_HerbalistWWTown_On
+0625_0101_d_01_GiveItem_GatheringSickleT1;TaskGiveItem;;0;1;1hSickleT1;;0;0;false;;;;;false;true;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;1;;;;;;;;;;
+0625_0101_d_01A_EquipItem_Sickle;TaskEquipItem;;1;1;1hSickleT1;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0425_0101_truffles_equip_sickle;;;;0;;;;;;;;;;
+0625_0101_d_02_container_truffles_tasks;SimpleTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;1;;;;;;0625_0101_d_02_01_GatherAndReturn_5_DeliciousTruffles;0625_0101_d_02_02_container_truffles_tasks;;;
+0625_0101_d_02_01_GatherAndReturn_5_DeliciousTruffles;TaskGatherAndReturnItems;;1;5;0625_0101_Truffle;0625_Truffle;100;0;false;;;;;true;false;false;0;0;;;IO_0625_Truffle;;;;;;;;;;;;;;;;;;;;;0;;@0425_0101_truffles_gather_truffle;;9610.925 2567.040 78.743;;0;;;;;;;;;;
+0625_0101_d_02_02_container_truffles_tasks;PartialTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;1;;;;;;0625_0101_d_02_02_01_Have_5_DeliciousTruffles;0625_0101_d_02_02_02_container_truffles_gather;;;
+0625_0101_d_02_02_01_Have_5_DeliciousTruffles;TaskHaveItems;;0;5;0625_0101_Truffle;;0;0;false;;;;;true;false;false;0;0;;;IO_0625_Truffle;;;;;;;;;;;;;;;;;;;;;0;;;;;;1;;;;;;;;;;
+0625_0101_d_02_02_02_container_truffles_gather;PartialTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0425_0101_truffles_optional_gather_hyssop;;;;0;;;;;;0625_0101_d_02_02_02_01_GatherAndReturn_Herbs;0625_0101_d_02_02_02_02_GatherAndReturn_Berries;;;
+0625_0101_d_02_02_02_01_GatherAndReturn_Herbs;TaskRequireGatherItems;;0;1;HerbT1;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;1;;;;;;;;;;
+0625_0101_d_02_02_02_02_GatherAndReturn_Berries;TaskRequireGatherItems;;0;1;BerryT1;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;1;;;;;;;;;;
+0625_0101_d_03_SliceSwap_0425_HerbalistPath_Off;TaskUnlockAchievement;;1;1;SwapActive_0425_HerbalistPath_Off;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;1;;;;;;;;;;
+0625_0101_d_04_SliceSwap_0425_HerbalistWWTown_On;TaskUnlockAchievement;;1;1;SwapActive_0425_HerbalistWWTown_On;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;1;;;;;;;;;;
 0604_0101_d_00_container_warnthemagistrate;SimpleTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0604_0101_d_01_transport_npc_note;0604_0101_d_02_have_npc_note;;;
 0604_0101_d_01_transport_npc_note;TaskGiveAndTakeItem;;1;1;MI_SummonsNote;;0;100;true;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@06_task_transport_generic;;;;1;;;;;;;;;;
 0604_0101_d_02_have_npc_note;TaskHaveAndReturnItems;;1;1;MI_SummonsNote;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;1;;@06_task_transport_generic;;;;1;;;;;;;;;;
@@ -62,10 +74,11 @@ TaskID;Type;FailOnCondition;StayActive;TargetQty;ItemName;ItemDropVC;ItemDropPro
 0604_0103_d_00_container_introtoartificer;ConsecutiveTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0604_0103_d_01_transport_npc_note;0604_0103_d_02_have_npc_note;;;
 0604_0103_d_01_transport_npc_note;TaskGiveAndTakeItem;;1;1;MI_SummonsNote;;0;100;true;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@06_task_transport_generic;;;;1;;;;;;;;;;
 0604_0103_d_02_have_npc_note;TaskHaveAndReturnItems;;1;1;MI_SummonsNote;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;1;;@06_task_transport_generic;;;;1;;;;;;;;;;
-0605_0101_d_00_container_craftforartificer;ConsecutiveTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;task_gatherironoreforoverseer;0605_0101_d_02_TaskHaveItems_9_IngotT2;0605_0101_d_03_TaskHaveItems_1_1hSwordT2;;
+0605_0101_d_00_container_craftforartificer;ConsecutiveTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;task_gatherironoreforoverseer;0605_0101_d_02_TaskHaveItems_9_IngotT2;0605_0101_d_03_TaskCraftRecipe;0605_0101_d_04_TaskHaveItems_1_1hSwordT2;
 task_gatherironoreforoverseer;TaskHaveItems;;0;90;OreT1;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@objective_gatherironore;;;1;0;;;;;;;;;;
 0605_0101_d_02_TaskHaveItems_9_IngotT2;TaskHaveItems;;0;9;IngotT2;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0605_0101_d_02_task;;9327 2693 3.05;1;0;;;;;;;;;;
-0605_0101_d_03_TaskHaveItems_1_1hSwordT2;TaskHaveItems;;0;1;1hSwordT2;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0605_0101_d_03_task;;9337 2720 3.03;;0;;;;;;;;;;
+0605_0101_d_03_TaskCraftRecipe;TaskCraftRecipe;;1;1;1hSwordT2;;0;0;false;;;;;false;false;false;0;0;Procedural_LongswordT2;;;;;;;;;;;;;;;;;;;;;;;0;;@0605_0101_d_03_task;;9337 2720 3.03;1;0;;;;;;;;;;
+0605_0101_d_04_TaskHaveItems_1_1hSwordT2;TaskHaveItems;;0;1;1hSwordT2;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0605_0101_d_03_task;;9337 2720 3.03;1;1;;;;;;;;;;
 0605_0102_d_00_container_campingunlock;ConsecutiveTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0605_0102_d_01_transport_npc_note;0605_0102_d_02_have_npc_note;;;
 0605_0102_d_01_transport_npc_note;TaskGiveAndTakeItem;;1;1;MI_SummonsNote;;0;100;true;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@06_task_transport_generic;;;;1;;;;;;;;;;
 0605_0102_d_02_have_npc_note;TaskHaveAndReturnItems;;1;1;MI_SummonsNote;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;1;;@06_task_transport_generic;;;;1;;;;;;;;;;
@@ -113,9 +126,14 @@ task_gatherironoreforoverseer;TaskHaveItems;;0;90;OreT1;;0;0;false;;;;;false;fal
 0602_0401_d_00_container_factionhandoff;ConsecutiveTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0602_0401_d_01_open_factionMission;0602_0401_d_02_container_factionhandoff_faction;;;
 0602_0401_d_01_open_factionMission;TaskOpenUiScreen;;0;1;;;0;0;false;;;;;false;false;false;0;0;;;;OWMissionBoard;;;;;;;;;;;;;;;;;;;;0;;@0602_0401_factionhandoff_faction_board_open;;;1;0;;;;;;;;;;
 0602_0401_d_02_container_factionhandoff_faction;PartialTaskContainer;;0;1;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0602_0401_factionhandoff_faction_mission_complete;;;;0;;;;;;0602_0401_d_02_01_Marauder_factionmission_complete;0602_0401_d_02_02_Syndicate_factionmission_complete;0602_0401_d_02_03_Covenant_factionmission_complete;;
-0602_0401_d_02_01_Marauder_factionmission_complete;TaskHaveLevel;;1;300;Marauder;;0;0;false;;;;;false;false;true;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;1;1;;;;;;;;;;
-0602_0401_d_02_02_Syndicate_factionmission_complete;TaskHaveLevel;;1;300;Syndicate;;0;0;false;;;;;false;false;true;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;1;1;;;;;;;;;;
-0602_0401_d_02_03_Covenant_factionmission_complete;TaskHaveLevel;;1;300;Covenant;;0;0;false;;;;;false;false;true;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;1;1;;;;;;;;;;
+0602_0401_d_02_01_Marauder_factionmission_complete;TaskHaveLevel;;1;20;Marauder;;0;0;false;;;;;false;false;true;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;1;1;;;;;;;;;;
+0602_0401_d_02_02_Syndicate_factionmission_complete;TaskHaveLevel;;1;20;Syndicate;;0;0;false;;;;;false;false;true;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;1;1;;;;;;;;;;
+0602_0401_d_02_03_Covenant_factionmission_complete;TaskHaveLevel;;1;20;Covenant;;0;0;false;;;;;false;false;true;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;1;1;;;;;;;;;;
+0604_0501_d_00_container_encroachingcorruption;ConsecutiveTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0604_0501_d_01_container_encroachingcorruption_Interacts;;;;
+0604_0501_d_01_container_encroachingcorruption_Interacts;SimpleTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0604_0501_encroachingcorruption_interact_nodes;;;1;0;;;;;;0604_0501_d_01_01_corruptednode_D;0604_0501_d_01_03_corruptednode_B;0604_0501_d_01_04_corruptednode_A;;
+0604_0501_d_01_01_corruptednode_D;TaskGameEvent;;0;1;;;0;0;false;;;;;false;false;false;0;0;;;IO_0604_CorruptedNoduleD;;;0604_CorruptedNoduleD_interact;;;;;;;;;;;;;;;;;;0;;@0604_0501_encroachingcorruption_nodeA;;9088.553 2470.306 95.036;1;0;;;;;;;;;;
+0604_0501_d_01_03_corruptednode_B;TaskGameEvent;;0;1;;;0;0;false;;;;;false;false;false;0;0;;;IO_0604_CorruptedNoduleB;;;0604_CorruptedNoduleB_interact;;;;;;;;;;;;;;;;;;0;;@0604_0501_encroachingcorruption_nodeC;;8845.428 2809.533 78.581;1;0;;;;;;;;;;
+0604_0501_d_01_04_corruptednode_A;TaskGameEvent;;0;1;;;0;0;false;;;;;false;false;false;0;0;;;IO_0604_CorruptedNoduleA;;;0604_CorruptedNoduleA_interact;;;;;;;;;;;;;;;;;;0;;@0604_0501_encroachingcorruption_nodeD;;9176.812 3085.423 92.997;1;0;;;;;;;;;;
 0622_1501_d_00_container_intrototravel;SimpleTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0622_1501_d_01_transport_npc_note;0622_1501_d_02_have_npc_note;;;
 0622_1501_d_01_transport_npc_note;TaskGiveAndTakeItem;;1;1;MI_SummonsNote;;0;100;true;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@06_task_transport_generic;;;;1;;;;;;;;;;
 0622_1501_d_02_have_npc_note;TaskHaveAndReturnItems;;1;1;MI_SummonsNote;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@06_task_transport_generic;;;;1;;;;;;;;;;
@@ -281,7 +299,7 @@ task_gatherironoreforoverseer;TaskHaveItems;;0;90;OreT1;;0;0;false;;;;;false;fal
 0823_0101_d_04_TaskCatchT4;TaskHaveAndReturnItems;;1;25;FishT4;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0823_0101_d_04_TaskCatchT4;;;;0;;;;;;;;;;
 0523_0101_d_00_container_FQ15;SimpleTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0523_0101_d_01_TaskHaveLevel;;;;
 0523_0101_d_01_TaskHaveLevel;TaskHaveLevel;;1;101;Fishing;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0523_0101_d_01_TaskHaveLevel;;;;0;;;;;;;;;;
-0604_0799_container_TheHermitWW;ConsecutiveTaskContainer;;0;1;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0604_0799_d_01_FinishOnboarding;0604_0799_d_02_HaveLevel_10;0604_0799_d_03_GrantAchievement_Yonas_FTP;0604_0799_container_04_travel;
+0604_0799_container_TheHermitWW;ConsecutiveTaskContainer;;0;1;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0604_0799_d_03_GrantAchievement_Yonas_FTP;0604_0799_container_04_travel;;;
 0604_0799_d_01_FinishOnboarding;TaskAchievement;;1;1;S_factionhandoff;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0604_0799_TheHermitWW_HelpSettlement;;;;0;;;;;;;;;;
 0604_0799_d_02_HaveLevel_10;TaskHaveLevel;;1;12;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@9900_attainlevel10;;;;0;;;;;;;;;;
 0604_0799_d_03_GrantAchievement_Yonas_FTP;TaskUnlockAchievement;;1;1;spiritshrine_01_40170_charted;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;1;;;;;;;;;;
@@ -295,7 +313,7 @@ task_gatherironoreforoverseer;TaskHaveItems;;0;90;OreT1;;0;0;false;;;;;false;fal
 0611_0102_d_03_TaskEyepiece;TaskHaveAndReturnItems;;1;1;0611_0102_Antiquarians;Withered_Brute_Named_08;100;0;false;;amrine_dungeon;;;true;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0611_0102_d_03_TaskEyepiece;;;;0;;;;;;;;;;
 0699_0101_d_00_container_Barkimedes;SimpleTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0699_0101_d_01_TaskGoToPOI;0699_0101_d_02_TaskGatherBones;;;
 0699_0101_d_01_TaskGoToPOI;TaskGoToPOITag;;1;0;;;0;0;false;;amrine_dungeon;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0699_0101_d_01_TaskGoToPOI;;;;0;;;;;;;;;;
-0699_0101_d_02_TaskGatherBones;TaskHaveAndReturnItems;;1;3;0699_0101_SucculentBone;Withered_Brute_DG_Windsward_00;100;0;false;;amrine_dungeon;;;true;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0699_0101_d_02_TaskGatherBones;;;;0;;;;;;;;;;
+0699_0101_d_02_TaskGatherBones;TaskHaveAndReturnItems;;1;5;0699_0101_SucculentBone;Withered_Brute_DG_Windsward_00;100;0;false;;amrine_dungeon;;;true;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0699_0101_d_02_TaskGatherBones;;;;0;;;;;;;;;;
 0699_0101_d_03_TaskFinish;TaskKillContribution;;1;1;;;0;0;false;;;;;false;false;false;0;0;;;;;;Withered_Brute_Named_08;;;;;;;;;;;;;;;;;;0;;@0611_0102_d_02_TaskKillSimon;;;;0;;;;;;;;;;
 0699_0102_d_00_container_Barkimedes2;SimpleTaskContainer;;0;0;;;0;0;false;;;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;0;;;;;;0699_0102_d_01_TaskGoToPOI;0699_0102_d_02_TaskGatherEnchantedBones;0699_0102_d_03_TaskGatherEnchantedBones;0699_0102_d_04_TaskGatherEnchantedBones;
 0699_0102_d_01_TaskGoToPOI;TaskGoToPOITag;;1;0;;;0;0;false;;shattered_obelisk;;;false;false;false;0;0;;;;;;;;;;;;;;;;;;;;;;;;0;;@0699_0102_d_01_TaskGoToPOI;;;;0;;;;;;;;;;

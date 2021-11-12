@@ -11,11 +11,12 @@ ConversationStateId;ConversationType;IsInitialState;DefaultDialogue;RequiredFact
 1204_01_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_01_Overseer;;0;S_introtosettlement;1204_0102_warnmagistrate;;;;;;;;;;;;;;;;;;;;;;
 1204_02_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_02_Overseer;;0;S_introtooverseer;1204_0101_overseersettlement;;;;;;;;;;;;;;;;;;;;;;
 1204_03_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_03_Overseer;;0;S_overseersettlement;1204_0103_introtoartificer;;;;;;;;;;;;;;;;;;;;Community_Board;;
-1204_04_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_04_Overseer;;0;S_factionhandoff;1204_0301_topplinggiants;1204_0799_TheHermitMB;;;;;;;;;;;;;;;;;;;Community_Board;;
-1204_05_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_05_Overseer;;0;12_Quest_04;1204_0202_stores;1204_0799_TheHermitMB;;;;;;;;;;;;;;;;;;;Community_Board;;
-1204_06_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_06_Overseer;;0;12_Quest_09;;1204_0799_TheHermitMB;;;;;;;;;;;;;;;;;;;Community_Board;;
-1204_07_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_07_Overseer;;0;12_Quest_05;1205_0303_crownjewels;1204_0799_TheHermitMB;;;;;;;;;;;;;;;;;;;Community_Board;;
-1204_08_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_08_Overseer;;0;12_Quest_08;;1204_0799_TheHermitMB;;;;;;;;;;;;;;;;;;;Community_Board;;
+1204_04_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_04_Overseer;;0;S_factionhandoff;;;;;;;;;;;1204_Constable_EncroachingCorruption;;;;;;;;;;;;
+1204_04A_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_04A_Overseer;;0;S_encroachingcorruption;;;;;;;;;;;;;;;;;;;;;Community_Board;;
+1204_05_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_05_Overseer;;0;12_Quest_04;1204_0202_stores;;;;;;;;;;;;;;;;;;;;Community_Board;;
+1204_06_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_06_Overseer;;0;12_Quest_09;;;;;;;;;;;;;;;;;;;;;Community_Board;;
+1204_07_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_07_Overseer;;0;12_Quest_09;1205_0303_crownjewels;;;;;;;;;;;;;;;;;;;;Community_Board;;
+1204_08_Overseer;Linear_Objective;false;@NPC_DefaultDialogue_1204_08_Overseer;;0;12_Quest_08;;;;;;;;;;;;;;;;;;;;;Community_Board;;
 1202_00_Magistrate;Linear_Objective;true;@NPC_DefaultDialogue_1202_00_Magistrate;;0;;1206_0103_hearthwohome;;;;;;;;;;;;;;;;;;;;;;
 1202_01_Magistrate;Linear_Objective;false;@NPC_DefaultDialogue_1202_01_Magistrate;;0;S_hearthhome;1202_0102_intrototrader;1203_0102_introtooverseer;;;;;;;;;1202_Magistrate_Monarchs;;;;;;;;;;;;
 1202_02_Magistrate;Linear_Objective;false;@NPC_DefaultDialogue_1202_02_Magistrate;;0;S_returntomagistrate;1202_0202_introtoallfactions;;;;;;;;;;1202_Magistrate_Factions;;;;;;;;;;;;
@@ -27,7 +28,7 @@ ConversationStateId;ConversationType;IsInitialState;DefaultDialogue;RequiredFact
 1205_00_Artificer;Linear_Objective;true;@NPC_DefaultDialogue_1205_00_Artificer;;0;;;;;;;;;;;;;;;;;;;;;;;;
 1205_01_Artificer;Linear_Objective;false;@NPC_DefaultDialogue_1205_01_Artificer;;0;S_introtoartificer;1205_0101_craftforartificer;;;;;;;;;;;;;;;;;;;;;;
 1205_02_Artificer;Linear_Objective;false;@NPC_DefaultDialogue_1205_02_Artificer;;0;S_craftforartificer;1205_0102_campingunlock;;;;;;;;;;;;;;;;;;;;;;
-1205_03_Artificer;Linear_Objective;false;@NPC_DefaultDialogue_1205_03_Artificer;;0;12_Quest_07;1205_0301_broken_weapons;;;;;;;;;;;;;;;;;;;;;;
+1205_03_Artificer;Linear_Objective;false;@NPC_DefaultDialogue_1205_03_Artificer;;0;12_Quest_02;1205_0301_broken_weapons;;;;;;;;;;;;;;;;;;;;;;
 1205_04_Artificer;Linear_Objective;false;@NPC_DefaultDialogue_1205_04_Artificer;;0;12_Quest_01;1205_0501_ancientcraft;;;;;;;;;;;;;;;;;;;;;;
 1205_05_Artificer;Linear_Objective;false;@NPC_DefaultDialogue_1205_05_Artificer;;0;12_Quest_08;;;;;;;;;;;;;;;;;;;;;;;
 1203_00_Survivalist;Linear_Objective;true;@NPC_DefaultDialogue_1203_00_Survivalist;;0;;;;;;;;;;;;;;;;;;;;;;;;
@@ -68,7 +69,7 @@ ConversationStateId;ConversationType;IsInitialState;DefaultDialogue;RequiredFact
 1209_06_Adjudicator;Linear_Objective;false;@NPC_DefaultDialogue_1209_06_Adjudicator;Covenant;0;S_timetochoose;1209_0101_covenantquest1;;;;;;;;;;;;;;;;;;;;;;
 1209_07_Adjudicator;Linear_Objective;false;@NPC_DefaultDialogue_1209_07_Adjudicator;Covenant;0;S_covenantquest1;;;;;;;;;;;1202_Covenant_dye_talk;;;;;;;;;;Faction_Board;Join_Outpost_Rush;
 1222_00_Innkeep;Linear_Objective;true;@1222_00_Innkeep;;0;;;;;;;;;;;;;;;;;;;;;;Inn;;
-1222_01_Innkeep;Linear_Objective;false;@1222_01_Innkeep;;12;S_factionhandoff;1222_1501_intrototravel;;;;;;;;;;;;;;;;;;;;Inn;;
+1222_01_Innkeep;Linear_Objective;false;@1222_01_Innkeep;;0;S_encroachingcorruption;1222_1501_intrototravel;;;;;;;;;;;;;;;;;;;;Inn;;
 1222_02_Innkeep;Linear_Objective;false;@1222_02_Innkeep;;0;S_returntravel;;;;;;;;;;;;;;;;;;;;;Inn;;
 1222_03_Innkeep;Linear_Objective;false;@1222_03_Innkeep;;25;;;;;;;;;;;;1222_Innkeep_WhereNow;;;;;;;;;;Inn;;
 1222_04_Innkeep;Linear_Objective;false;@1222_04_Innkeep;;35;;;;;;;;;;;;1222_Innkeep_WhyHouse;;;;;;;;;;Inn;;

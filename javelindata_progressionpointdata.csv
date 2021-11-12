@@ -92,7 +92,7 @@ Passive_Sword_Defender_FortWhileBlock;;SwordAbilityTable;1;;;10;;;0;;0;;;;
 Passive_Sword_Defender_RngBlock;;SwordAbilityTable;1;;;10;;;0;;0;;;;
 Passive_Sword_Defender_CDRWhileBlock;;SwordAbilityTable;1;;;10;;;0;;0;;;;
 Passive_Sword_Defender_DmgOnFinal;;SwordAbilityTable;1;;;10;;;0;;0;;;;
-Passive_Sword_Defender_MaxHp;;;1;;;10;;;0;;0;;;;
+Passive_Sword_Defender_StaminaGain;;SwordAbilityTable;1;;;10;;;0;;0;;;;
 Passive_Sword_Defender_HealBoost;;SwordAbilityTable;1;;;10;;;0;;0;;;;
 Ultimate_Sword_Defender;;SwordAbilityTable;1;;;10;;;0;;0;;;;
 Ability_Bow_PoisonShot;;BowAbilityTable;1;;;10;;;0;;0;;;;
@@ -231,7 +231,7 @@ Passive_Lifestaff_Healing_HealOnLight;;LifeMagicAbilityTable;1;;;10;;;0;Passive_
 Passive_Lifestaff_Healing_CDROnLight;;LifeMagicAbilityTable;1;;;10;;;0;;0;;;;
 Passive_Lifestaff_Healing_CDROnLow;;LifeMagicAbilityTable;1;;;10;;;0;;0;;;;
 Passive_Lifestaff_Healing_AoeHealWhenHit;;LifeMagicAbilityTable;1;;;10;;;0;;0;;;;
-Passive_Lifestaff_Healing_GroupHealth;;;1;;;10;;;0;;0;;;;
+Passive_Lifestaff_Healing_GroupHealing;;LifeMagicAbilityTable;1;;;10;;;0;;0;;;;
 Passive_Lifestaff_Healing_HealingBuffonBasic;;LifeMagicAbilityTable;1;;;10;;;0;;0;;;;
 Ultimate_Lifestaff_Healing;;LifeMagicAbilityTable;1;;;10;;;0;;0;;;;
 Ability_Lifestaff_OrbofProtection;;LifeMagicAbilityTable;1;;;10;;;0;;0;;;;

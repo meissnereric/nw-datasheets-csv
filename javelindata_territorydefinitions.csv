@@ -6,7 +6,7 @@ TerritoryID;NameLocalizationKey;BaseStructureLimit;MaxStructureLimit;TerritorySc
 5;@Reekwater;300;500;0;false;;;;;;;;Reekwater;;;Music_Territory;West_Consolation;58;66;true;;true;Taxes_Crafting_Modifier;InfluencePoints_Modifier,ExperiencePoints_Modifier;TerritoryPermanentOwner05;3;400
 6;@Windsward;300;500;0;false;;;;;;;;Windsward;;;Music_Territory;South_Windsward;1;25;true;06_getoffbeach;true;Gathering_Volume_Modifier;InfluencePoints_Modifier,ExperiencePoints_Modifier;TerritoryPermanentOwner06;1;75
 7;@ShatteredMountain;300;500;0;false;;;;;;;;Shattered;;;Music_Territory;Shattered_Mountain;60;65;true;;true;None;None;;3;400
-8;@Queensport;300;500;0;false;;;;;;;;Queensport;;;Music_Territory;Queensport;0;0;true;;true;Taxes_Refining_Modifier;InfluencePoints_Modifier,ExperiencePoints_Modifier;TerritoryPermanentOwner08;3;400
+8;@Queensport;300;500;0;false;;;;;;;;Queensport;;;Music_Territory;Queensport;51;62;true;;true;Taxes_Refining_Modifier;InfluencePoints_Modifier,ExperiencePoints_Modifier;TerritoryPermanentOwner08;3;400
 9;@FirstLight;300;500;0;false;;;;;;;;FirstLight;;;Music_Territory;First_Light;1;25;true;09_getoffbeach;true;Azoth_FastTravel_Weight_Reduction;InfluencePoints_Modifier,ExperiencePoints_Modifier;TerritoryPermanentOwner09;1;75
 10;@CutlassKeys;300;500;0;false;;;;;;;;CutlassKeys;;;Music_Territory;Windsward_Shores;26;35;true;;true;Azoth_FastTravel_GeneralCost_Reduction;InfluencePoints_Modifier,ExperiencePoints_Modifier;TerritoryPermanentOwner10;1.5;150
 11;@Mourningdale;300;500;0;false;;;;;;;;Mourning;;;Music_Territory;Morrowtide;45;50;true;;true;Rewards_Expedition_Modifier;InfluencePoints_Modifier,ExperiencePoints_Modifier;TerritoryPermanentOwner11;2;200
